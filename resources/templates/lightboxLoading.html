@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Filter | Loading</title>
+	<!-- Installments -->
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+
+	<!-- VENDORS: css -->
+	<link rel="stylesheet" type="text/css" href="../../vendors/css/lightbox.css">
+	<!-- VENDORS: js -->
+	<script src="../../vendors/js/lightbox.js"></script>
+
+	<!-- Style -->
+	<link rel="stylesheet" type="text/css" href="../css/filter.css">
+	<link rel="stylesheet" type="text/css" href="../css/loading.css">
+</head>
+<body>
+
+	<!-- Loader -->
+	<div id="preloader"> <div class="spinner"> </div> </div>
+
+	<header> <h1> Lightbox Example </h1> </header>
+
+	<div>
+		<div class="div__gallery"> <a href="../img/picsum/pic1.jpg" data-lightbox = "mygallery"> <img src="../img/picsum/pic1.jpg" width="370px"> </a> </div>  
+		<div class="div__gallery"> <a href="../img/picsum/pic2.jpeg" data-lightbox = "mygallery"> <img src="../img/picsum/pic2.jpeg" width="370px"> </a> </div>  
+		<div class="div__gallery"> <a href="../img/picsum/pic3.jpg" data-lightbox = "mygallery"> <img src="../img/picsum/pic3.jpg" width="370px"> </a> </div>  
+		<div class="div__gallery"> <a href="../img/picsum/pic4.jpg" data-lightbox = "mygallery"> <img src="../img/picsum/pic4.jpg" width="370px"> </a> </div>  
+		<div class="div__gallery"> <a href="../img/picsum/pic5.jpg" data-lightbox = "mygallery"> <img src="../img/picsum/pic5.jpg" width="370px"> </a> </div>  
+		<div class="div__gallery"> <a href="../img/picsum/pic6.jpg" data-lightbox = "mygallery"> <img src="../img/picsum/pic6.jpg" width="370px"> </a> </div>  
+		<div class="div__gallery"> <a href="../img/picsum/pic7.jpg" data-lightbox = "mygallery"> <img src="../img/picsum/pic7.jpg" width="370px"> </a> </div>  
+		<div class="div__gallery"> <a href="../img/picsum/pic8.jpg" data-lightbox = "mygallery"> <img src="../img/picsum/pic8.jpg" width="370px"> </a> </div>  
+	</div>
+
+<!-- 	<div>
+		<p> photos are collected from <a href="https://picsum.photos/" target="_blank">this </a>website </p>
+		<p> more you will find these effects on <a href="https://www.w3schools.com/cssref/css3_pr_filter.asp"> this </a> website </p>
+	</div>  -->
+
+
+	<script type="text/javascript">
+		console.log("hi");
+		$(document).ready(function () {
+			$('#preloader').delay(1000).fadeOut(1000);
+		});
+	</script>
+
+</body>
+</html>
